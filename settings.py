@@ -13,7 +13,7 @@ meteor = pygame.image.load('meteor.png')
 laser = pygame.image.load('laser.png')
 
 pygame.mixer.init()
-pygame.mixer.music.load('ls.ogg')
+#pygame.mixer.music.load('ls.ogg')
 font = pygame.font.SysFont('Comic Sans MS',100)
 small_font = pygame.font.SysFont('Comic Sans MS',30) 
 
