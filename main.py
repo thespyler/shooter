@@ -42,8 +42,7 @@ def main():
                         b = Bullet(player.rect.x + 50, player.rect.y - 50)
                         bullets.add(b)
                         all_sprites.add(b)
-                   #
- pygame.mixer.music.play(1)
+                   #pygame.mixer.music.play(1)
 
             if event.type == KEYUP:
                 player.speed = 0
