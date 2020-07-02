@@ -8,13 +8,10 @@ WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 game_on = True
 ship = pygame.image.load('ship.png')
-ship1 = pygame.image.load('ship1.png')
-ship2 = pygame.image.load('ship2.png')
-ship3 = pygame.image.load('ship3.png')
 
 meteor = pygame.image.load('meteor.png')
 laser = pygame.image.load('laser.png')
-power = pygame.image.load('power.png')
+
 pygame.mixer.init()
 pygame.mixer.music.load('ls.ogg')
 font = pygame.font.SysFont('Comic Sans MS',100)
